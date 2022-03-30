@@ -1,0 +1,271 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+body{
+    font-family: sans-serif;
+}
+/*Navbar sticky on the top*/
+#nav-bar{
+    position:sticky;
+    top:0;
+    z-index: 10;
+}
+.navbar{
+    background-image: linear-gradient(to right,#000000,#5f1782);
+    padding:0 !important;
+}
+.navbar-brand img{
+height:80px;
+padding-left: 20px;
+}
+.navbar-nav li{
+    padding: 0 10px;
+}
+.navbar-nav li a{
+color: #fff !important;
+font-weight:600;
+/*TO ALIGN MENU CONTENTS TO RIGHT */
+float:right; 
+text-align: left;
+}
+.fa-bars{
+    color:#fff;
+    font-size:30px !important;
+}
+.navbar-toggler{
+    outline:none !important;
+
+}
+.nav-item .current {
+background-color:black;
+}
+/* NAVIGATION COMPLETED*/
+
+/*CAROUSEL SLIDING STARTS HERE */
+
+.carousel-caption{
+ font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.carousel-item{
+height:80vh;
+min-height:400px;
+background:no repeat scroll center scroll;
+-webkit-background-size:cover;
+background-size:cover;
+}
+
+.carousel-item::before{
+    content:"";
+    display:block;
+    position:absolute;
+    top:0;
+    left:0;
+    bottom:0;
+    right:0;
+    background:#000;
+    opacity:0.7;
+}
+.carousel-caption{
+    bottom:180px;
+    padding-left:100px;
+    padding-right:100px;
+}
+   
+.carousel-caption h5{
+    font-size:90px;
+    font-weight:500;
+    font-family:'Courier New', Courier, monospace;
+     
+}
+.carousel-caption p{
+font-size:30px;
+top:2rem;
+font-family:'Courier New', Courier, monospace;
+}
+
+.carousel-inner img {
+    width:100%;
+    height:80vh;
+  }
+
+
+
+  .foot{
+    background-color: #5f1782;
+    color:white;
+    text-align: center;
+}
+/*------------ABOUT KERALA-----*/
+.kerala{
+padding:100px 0;
+}
+h1{
+    text-align:center;
+padding-bottom:30px;
+}
+
+.ker h1{
+    font-family: 'Tangerine', serif;
+  font-size: 48px;
+  text-shadow: 4px 4px 4px #aaa;
+}
+.ker h1{
+    margin-top:100px;
+    font-family: "Sigmar One";
+     font-size: 50px; 
+     color:green;
+     font-style: normal;
+      font-variant: normal; 
+      font-weight: 700;
+       line-height: 26.4px;
+}
+.bgimage1 img{
+    width:100%;
+    height:500px; 
+    display: block;
+}
+
+
+      .kerpar1 p{
+          padding:50px;
+          font-family: 'Nunito', sans-serif;
+          /* font-family: Cantarell; */
+           font-size: 20px; 
+           font-style: normal; 
+           font-variant: normal; 
+           font-weight: 200; 
+           line-height: 28px;
+           text-align:justify;
+      }
+
+
+
+      .bg2 img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    
+      }
+      .map iframe{
+          margin-top:50px; 
+          margin-right:50px;
+      }
+
+.contain-frame{
+    margin-bottom:50px;
+    display: block;
+} 
+
+
+   /*------------- ENDING ABOUT KERALA-------*/    
+
+/* signin page styling */
+.sign{
+    display: -webkit-flex;
+        display: flex;
+        height: 100%;
+}
+
+#logbox {
+
+    padding: 10px;
+    margin: 50px auto;
+    width: 340px;
+    background-color: #fff;
+    -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+    -moz-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+}
+
+.sign h1{
+        text-align: center;
+        font-family: 'Tangerine', serif;
+  font-size: 48px;
+  text-shadow: 4px 4px 4px #aaa;
+        /* font-size: 175%; */
+        /* color: #757575;
+        font-weight: 300; */
+}
+.sign h1,input{
+        font-family: "Open Sans", Helvetica, sans-serif;
+}
+
+.sign input{
+    width: 75%;
+        height: 50px;
+        display: block;
+        margin: 0 auto 15px;
+        padding: 0 15px;
+        border: none;
+        border-bottom: 2px solid #ebebeb;
+}
+
+.input:focus {
+    outline: none;
+    border-bottom-color: #3CC !important;
+}
+.input:hover {
+    border-bottom-color: #dcdcdc;
+}
+.input:invalid {
+    box-shadow: none;
+}
+
+.inputButton {
+    position: relative;
+    width: 85%;
+    height: 50px;
+    display: block;
+    margin: 30px auto 30px;
+    color: white;
+    background-color: #3CC;
+    border: none;
+}
+
+.inputButton:active {
+    top: 5px;
+    box-shadow: none;
+}
+.inputButton:focus {
+    outline: none;
+}
+#logbox{    
+margin:80px 350px;
+}
+/*SIGN UP STYLING ended*/
+
+
+
+
+/*DISTRICT PAGE IMAGE MAP STYLING*/
+.distimage img{
+    margin-top:50px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.distimage h3{
+    margin-top:50px;
+    text-align:center;
+    font-family: 'Tangerine', serif;
+  font-size: 48px;
+  text-shadow: 4px 4px 4px rebeccapurple;
+}
+
+/*DISTRICT PAGE STYLING CONTENT*/
+
+.distintro p{
+
+    padding:50px;
+          font-family: Cantarell;
+           font-size: 20px; 
+           font-style: normal; 
+           font-variant: normal; 
+           font-weight: 400; 
+           line-height: 28px;
+           text-align: justify;
+}
+

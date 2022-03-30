@@ -1,0 +1,130 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+body{
+    font-family: sans-serif;
+}
+/*Navbar sticky on the top*/
+#nav-bar{
+    position:sticky;
+    top:0;
+    z-index: 10;
+}
+.navbar{
+    background-image: linear-gradient(to right,#000000,#5f1782);
+    padding:0 !important;
+}
+.navbar-brand img{
+height:80px;
+padding-left: 20px;
+}
+.navbar-nav li{
+    padding: 0 10px;
+}
+.navbar-nav li a{
+color: #fff !important;
+font-weight:600;
+/*TO ALIGN MENU CONTENTS TO RIGHT */
+float:right; 
+text-align: left;
+}
+.fa-bars{
+    color:#fff;
+    font-size:30px !important;
+}
+.navbar-toggler{
+    outline:none !important;
+
+}
+.nav-item .current {
+background-color:black;
+}
+/* NAVIGATION COMPLETED*/
+
+
+/* SIGNIN PAGE STYLING*/
+html,body{
+    background-image: url('https://www.mmg.gy/wp-content/uploads/1-3.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    font-family: 'Numans', sans-serif;
+    }
+    
+    .container{
+        height: 80%;
+        align-content: center;
+        padding-top:100px;
+        }
+        
+        .card{
+        height: 370px;
+        margin-top: auto;
+        margin-bottom: auto;
+        width: 400px;
+        background-color: rgba(0,0,0,0.5) !important;
+        }
+        
+        .social_icon span{
+        font-size: 60px;
+        margin-left: 10px;
+        color: #FFC312;
+        }
+        
+        .social_icon span:hover{
+        color: white;
+        cursor: pointer;
+        }
+        
+        .card-header h3{
+        color: white;
+        }
+        
+        .social_icon{
+        position: absolute;
+        right: 20px;
+        top: -45px;
+        }
+        
+        .input-group-prepend span{
+        width: 50px;
+        background-color: #FFC312;
+        color: black;
+        border:0 !important;
+        }
+        
+        input:focus{
+        outline: 0 0 0 0  !important;
+        box-shadow: 0 0 0 0 !important;
+        
+        }
+        
+        .remember{
+        color: white;
+        }
+        
+        .remember input
+        {
+        width: 20px;
+        height: 20px;
+        margin-left: 15px;
+        margin-right: 5px;
+        }
+        
+        .login_btn{
+        width: 100px;
+        }
+        
+        .login_btn:hover{
+        color: black;
+        background-color: white;
+        }
+        
+        .links{
+        color: white;
+        }
+        
+        .links a{
+            margin-left: 4px;
+}
